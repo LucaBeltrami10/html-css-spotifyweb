@@ -62,7 +62,8 @@
  /* NAV UPGRADE */
  #upgrade {
     height: 200px;
-    background-color: #080b12;
+    /* background-color: #080b12; */
+    background-color: aqua;
     width: calc(100vw - 50px);
  }
 
@@ -75,3 +76,8 @@ header{
  /* MAIN */
 
  /* NAV MEDIA */
+#media{
+    height: 200px;
+    background-color: lightgreen;
+    width: calc(100vw -50px);
+}
