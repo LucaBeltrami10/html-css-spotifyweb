@@ -67,7 +67,6 @@ ul{
     /* background-color: #080b12; */
     background-color: aqua;
     width: calc(100vw - 30px);
-    
     position: absolute;
     right: 0;
     top: 0;
@@ -98,21 +97,21 @@ header .text{
 main{
     height: calc(100vh - 55px);
     width: calc(100vw - 30px);
-    
     background-color: lightpink;
     position: absolute;
     right: 0;
     top: 0;
 
+    margin: 55px 0 55px 30px;
+
 }
 
 
  /* NAV CONTROLS */
-#media{
+#controls{
     height: 55px;
     background-color: rgb(27, 75, 27);
     width: 100vw;
-    
     position: absolute;
     right: 0;
     bottom: 0;
