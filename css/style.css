@@ -82,6 +82,14 @@ header{
     top: 0;
 }
 
+header .playlist{
+    display: none;
+}
+
+header .text{
+    display: none;
+}
+
 
 
  /* MAIN */
