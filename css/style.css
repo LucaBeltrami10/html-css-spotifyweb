@@ -13,7 +13,7 @@
  /***********************
  UTILITIES
  ************************/
- 
+
 /* LAYOUT */
 .flex-row{
     display: flex;
@@ -59,8 +59,19 @@
 /***********************
  SECTION 
  ************************/
- /* HEADER */
+ /* NAV UPGRADE */
+ #upgrade {
+    height: 200px;
+    background-color: #080b12;
+    width: calc(100vw - 50px);
+ }
 
+ /* HEADER */
+header{
+    width: 50px;
+    background-color: #000000;
+    height: calc(100vh - 200px);
+}
  /* MAIN */
 
- /* FOOTER */
+ /* NAV MEDIA */
