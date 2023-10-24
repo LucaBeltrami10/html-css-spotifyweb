@@ -74,6 +74,12 @@ header{
     height: calc(100vh - 200px);
 }
  /* MAIN */
+main{
+    height: calc(100vh - 400px);
+    width: calc(100vw - 50px);
+    background-color: lightskyblue;
+}
+
 
  /* NAV MEDIA */
 #media{
