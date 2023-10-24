@@ -85,7 +85,7 @@ body{
     padding: 0.5rem 1.5rem;
     margin-right: 0.5rem;
     border-radius: 20px;
-    font-size: 0.5rem;
+    font-size: 0.45rem;
     position: absolute;
     top: 50%;
     right: 0;
@@ -101,16 +101,26 @@ header{
     position: absolute;
     left: 0;
     top: 0;
+    color: gray;
+    align-items: center;
 }
 
-header ul.search{
+header a{
+    display: inline-block;
+}
+
+header img{
+    height: 16px;
+}
+
+header .home{
+    height: 17px;
+    margin: 0.25rem 0 0.5rem 0;
+}
+
+/* header ul.search{
     color: #7b7e82;
-}
-
-header ul.search img{
-    height: 18px;
-}
-
+} */
 
 header .playlist{
     display: none;
@@ -118,6 +128,11 @@ header .playlist{
 
 header .text{
     display: none;
+}
+
+header .account{
+position: absolute;
+bottom: 0;
 }
 
 
