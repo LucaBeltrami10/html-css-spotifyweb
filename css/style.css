@@ -42,6 +42,10 @@ body{
     align-items: center;
 }
 
+.flex-wrap-on{
+    flex-wrap: wrap;
+}
+
 
 /* COLOR */
 
@@ -111,6 +115,7 @@ header a{
 
 header img{
     height: 16px;
+    color: #d2d2d2;
 }
 
 header .home{
@@ -131,8 +136,8 @@ header .text{
 }
 
 header .account{
-position: absolute;
-bottom: 0;
+    position: absolute;
+    bottom: 0;
 }
 
 
@@ -145,9 +150,29 @@ main{
     position: absolute;
     right: 0;
     top: 0;
-
+    /* margin per togliere distanze */
     margin: 55px 0 55px 30px;
+}
 
+#discover{
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#discover li{
+    color: #d2d2d2;
+    font-weight: 600;
+    line-height: 2rem;
+    margin: 0 0.25rem;
+    font-size: 0.6rem;
+    
+}
+
+#recently-played h1{
+    color: white;
+    font-size: 1rem;
+    margin: 0.5rem 0;
 }
 
 
