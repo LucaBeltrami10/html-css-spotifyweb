@@ -8,7 +8,12 @@
 /************************
  GENERAL STYLE 
  ************************/
-ul{
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+ ul{
     list-style-type: none;
 }
 
@@ -64,13 +69,28 @@ ul{
  /* NAV UPGRADE */
  #upgrade {
     height: 55px;
-    /* background-color: #080b12; */
-    background-color: aqua;
+    background-color: #080b12;
     width: calc(100vw - 30px);
     position: absolute;
     right: 0;
     top: 0;
     z-index: 2;
+ }
+
+ .button-upgrade{
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    text-transform: uppercase;
+    padding: 0.5rem 1.5rem;
+    margin-right: 0.5rem;
+    border-radius: 20px;
+    font-size: 0.5rem;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    font-weight: 600;
  }
 
  /* HEADER */
@@ -82,6 +102,15 @@ header{
     left: 0;
     top: 0;
 }
+
+header ul.search{
+    color: #7b7e82;
+}
+
+header ul.search img{
+    height: 18px;
+}
+
 
 header .playlist{
     display: none;
@@ -97,7 +126,7 @@ header .text{
 main{
     height: calc(100vh - 55px);
     width: calc(100vw - 30px);
-    background-color: lightpink;
+    background-color: #141922;
     position: absolute;
     right: 0;
     top: 0;
@@ -110,7 +139,7 @@ main{
  /* NAV CONTROLS */
 #controls{
     height: 55px;
-    background-color: rgb(27, 75, 27);
+    background-color: #282828;
     width: 100vw;
     position: absolute;
     right: 0;
