@@ -155,7 +155,7 @@ main{
     top: 0;
     /* margin per togliere distanze */
     margin: 55px 0 55px 30px;
-    padding: 0 0.5rem;
+    padding: 0 0.8rem;
     overflow-y: scroll;
 }
 
@@ -166,36 +166,39 @@ main{
 }
 
 #discover li{
-    color: #d2d2d2;
+    color: #4c5057;
     font-weight: 600;
     line-height: 2rem;
     margin: 0 0.25rem;
-    font-size: 0.6rem;
+    font-size: 0.5rem;
+    text-transform: uppercase;
     
 }
 
 #recently-played h1{
     color: white;
-    margin: 1rem 0 1rem 0;
+    margin: 1rem 0 1.1rem 0;
     font-size: 0.9rem;
 }
 
-#recently-played .info-audio{
-    width: calc(50%);
+
+.recommended-container .info-audio{
+    width: calc(50% - 0.25rem);
     text-align: center;
     color: white;
+    margin-bottom: 0.5rem;
 }
 
-#recently-played .info-audio > img{
+.recommended-container .info-audio > img{
     width: 100%;
 }
 
-#recently-played .info-audio > h2{
+.recommended-container .info-audio > h2{
     padding: 0.5rem 0 0.25rem 0;
     font-size: 0.7rem;
 }
 
-#recently-played .info-audio > h3{
+.recommended-container .info-audio > h3{
     font-size: 0.5rem;
 }
 
