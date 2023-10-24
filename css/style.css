@@ -65,6 +65,10 @@
     /* background-color: #080b12; */
     background-color: aqua;
     width: calc(100vw - 50px);
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
  }
 
  /* HEADER */
@@ -72,18 +76,29 @@ header{
     width: 50px;
     background-color: #000000;
     height: calc(100vh - 200px);
+    position: absolute;
+    left: 0;
+    top: 0;
 }
  /* MAIN */
 main{
-    height: calc(100vh - 400px);
+    height: calc(100vh - 200px);
     width: calc(100vw - 50px);
-    background-color: lightskyblue;
+    background-color: lightpink;
+    position: absolute;
+    right: 0;
+    top: 0;
+
 }
 
 
  /* NAV MEDIA */
 #media{
     height: 200px;
-    background-color: lightgreen;
-    width: calc(100vw -50px);
+    background-color: rgb(27, 75, 27);
+    width: 100vw;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
 }
