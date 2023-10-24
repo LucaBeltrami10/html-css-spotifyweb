@@ -81,6 +81,9 @@ header{
     left: 0;
     top: 0;
 }
+
+
+
  /* MAIN */
 main{
     height: calc(100vh - 55px);
