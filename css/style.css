@@ -207,7 +207,7 @@ main{
     height: 55px;
     background-color: #282828;
     width: 100vw;
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 0;
     z-index: 3;
