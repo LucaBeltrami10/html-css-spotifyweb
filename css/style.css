@@ -42,12 +42,15 @@ body{
     align-items: center;
 }
 
-.flex-wrap-on{
+.flex-wrap{
     flex-wrap: wrap;
 }
 
 
 /* COLOR */
+.cl-gray{
+    color: #4c5057;
+}
 
 /* TEXT-STYLE */
 .text-cenetred{
@@ -152,6 +155,7 @@ main{
     top: 0;
     /* margin per togliere distanze */
     margin: 55px 0 55px 30px;
+    padding: 0 0.5rem;
 }
 
 #discover{
@@ -171,9 +175,30 @@ main{
 
 #recently-played h1{
     color: white;
-    font-size: 1rem;
-    margin: 0.5rem 0;
+    margin: 1rem 0 1rem 0;
+    font-size: 0.9rem;
 }
+
+#recently-played .info-audio{
+    width: calc(50%);
+    text-align: center;
+    color: white;
+}
+
+#recently-played .info-audio > img{
+    width: 100%;
+}
+
+#recently-played .info-audio > h2{
+    padding: 0.5rem 0 0.25rem 0;
+    font-size: 0.7rem;
+}
+
+#recently-played .info-audio > h3{
+    font-size: 0.5rem;
+}
+
+
 
 
  /* NAV CONTROLS */
