@@ -52,6 +52,10 @@ body{
     color: #4c5057;
 }
 
+.cl-white{
+    color: white;
+}
+
 /* TEXT-STYLE */
 .text-cenetred{
     text-align: center;
@@ -243,4 +247,72 @@ main{
     right: 0;
     bottom: 0;
     z-index: 3;
+}
+
+#controls i {
+    display: block;
+    color: white;
+    font-size: 10px;
+}
+
+/*?  listening */
+#controls .listening{
+    margin-left: 0.5rem;
+}
+
+#controls .listening h1{
+    font-size: 0.5rem;
+}
+
+#controls .listening h2{
+    font-size: 0.4rem;
+}
+
+#controls .listening .song-cover{
+    width: 20px;
+    height: 20px;
+}
+
+#controls .listening .song-name{
+    margin-left: 0.25rem;
+    margin-right: 0.5rem;
+}
+
+#controls .listening .like-container{
+    padding-right: 1rem;
+    align-items: center;
+}
+
+#controls .listening i{
+    color: gray;
+}
+
+/*?  player */
+
+#controls .player{
+
+}
+
+#controls .player-buttons{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+#controls .player-buttons i{
+    padding: 0 0.5rem;
+    font-size: 0.6rem;
+    
+}
+
+
+/*?  set-audio */
+
+#controls .set-audio .timing-bar{
+    align-items: center;
+}
+
+#controls .set-audio .timing-bar i{
+    padding: 0 0.5rem;
 }
