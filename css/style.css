@@ -156,6 +156,7 @@ main{
     /* margin per togliere distanze */
     margin: 55px 0 55px 30px;
     padding: 0 0.5rem;
+    overflow-y: scroll;
 }
 
 #discover{
