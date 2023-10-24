@@ -175,12 +175,15 @@ main{
     
 }
 
-#recently-played h1{
+.recommended-container h1{
     color: white;
-    margin: 1rem 0 1.1rem 0;
-    font-size: 0.9rem;
 }
 
+.recommended-container > p{
+    padding: 0.5rem 0 1rem 0;
+    color:#4c5057;
+    font-size: 0.5rem;
+}
 
 .recommended-container .info-audio{
     width: calc(50% - 0.25rem);
@@ -202,6 +205,32 @@ main{
     font-size: 0.5rem;
 }
 
+#recently-played h1{
+    margin: 1rem 0 1.1rem 0;
+    font-size: 0.9rem;
+}
+
+#for-you h1,
+#popular h1{
+    color: white;
+    margin: 1rem 0 0 0;
+    font-size: 1rem;
+}
+
+#popular .img-round{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: green;
+    z-index: 2;
+}
+
+#popular .img-round img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
 
 
 
