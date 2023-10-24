@@ -155,7 +155,7 @@ main{
     top: 0;
     /* margin per togliere distanze */
     margin: 55px 0 55px 30px;
-    padding: 0 0.8rem;
+    padding: 0 0.8rem 55px 0.8rem;
     overflow-y: scroll;
 }
 
@@ -222,7 +222,7 @@ main{
     aspect-ratio: 1/1;
     border-radius: 50%;
     background-color: green;
-    z-index: 2;
+    overflow: hidden;
 }
 
 #popular .img-round img{
