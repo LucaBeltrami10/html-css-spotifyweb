@@ -159,7 +159,6 @@ main{
     right: 0;
     top: 0; */
     /* margin per togliere distanze */
-    margin: 90px 0 90px 30px;
     padding: 0 0.8rem 90px 0.8rem;
     overflow-y: scroll;
 }
