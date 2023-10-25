@@ -238,10 +238,10 @@ main > *{
 }
 
 .recommended-container .info-audio{
-    width: calc(50% - 0.25rem);
+    width: calc(50% - 0.5rem);
+    margin: 0 0.5rem 0.5rem 0;
     text-align: center;
     color: white;
-    margin-bottom: 0.5rem;
 
 }
 
@@ -304,6 +304,7 @@ main > *{
 /*?  listening */
 #controls .listening{
     margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 #controls .listening h1{
@@ -312,11 +313,19 @@ main > *{
 
 #controls .listening h2{
     font-size: 0.6rem;
+    padding-right: 0.5rem;
 }
+
+#controls .listening .like-container i{
+    font-size: 0.9rem;
+    margin-bottom: 0.25rem;
+}
+
 
 #controls .listening .song-cover{
     width: 30px;
     height: 30px;
+    margin-right: 0.4rem;
 }
 
 #controls .listening .song-name{
