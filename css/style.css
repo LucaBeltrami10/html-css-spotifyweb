@@ -133,6 +133,28 @@ header .home img.big-logo{
     height: 30px;
 }
 
+header .playlist h1{
+    font-size: 1rem;
+    margin: 2rem 0 0.5rem 0;
+}
+
+header .playlist a{
+    font-weight: 600; 
+}
+
+header .playlist a i{
+    font-size: 3rem;
+    color: #4c5057;
+    font-weight: 600;
+    margin-right: 0.5rem;
+}
+
+header .playlist li{
+    font-weight: 600;
+    font-size: 0.7rem;
+    padding: 0.5rem 0;
+}
+
 header .account{
     position: absolute;
     bottom: 0;
@@ -179,7 +201,6 @@ main > *{
     margin-right: 1rem;
     font-weight: 600;
 }
-
 
 #discover{
     flex-wrap: wrap;
