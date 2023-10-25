@@ -160,11 +160,6 @@ header .playlist li{
     padding: 0.5rem 0;
 }
 
-header .account{
-    /* position: absolute;
-    bottom: 0; */
-}
-
 header .account .divider{
     height: 1px;
     width: 30px;
@@ -344,10 +339,6 @@ main > *{
 
 /*?  player */
 
-#controls .player{
-
-}
-
 #controls .player-buttons{
     align-items: center;
     justify-content: center;
@@ -369,8 +360,24 @@ main > *{
 }
 
 #controls .set-audio .timing-bar i{
-    padding: 0 0.5rem;
+    padding: 0 0.3rem;
+    font-size: 0.7rem;
 }
+
+.slidecontainer {
+    width: 100px;
+  }
+
+  .slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 90px;
+    height: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.8;
+    border-radius: 5px;
+  }
 
 
 
