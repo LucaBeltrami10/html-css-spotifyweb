@@ -79,9 +79,9 @@ body{
  ************************/
  /* NAV UPGRADE */
  #upgrade {
-    height: 55px;
+    height: 90px;
     background-color: #080b12;
-    width: calc(100vw - 30px);
+    width: calc(100vw - 55px);
     position: absolute;
     right: 0;
     top: 0;
@@ -93,22 +93,22 @@ body{
     background-color: rgba(0, 0, 0, 0);
     color: white;
     text-transform: uppercase;
-    padding: 0.5rem 1.5rem;
+    padding: 0.8rem 2.5rem;
     margin-right: 0.5rem;
     border-radius: 20px;
-    font-size: 0.45rem;
+    font-size: 0.7rem;
     position: absolute;
     top: 50%;
     right: 0;
     transform: translate(0, -50%);
     font-weight: 600;
- }
+}
 
  /* HEADER */
 header{
-    width: 30px;
+    width: 55px;
     background-color: #000000;
-    height: calc(100vh - 55px);
+    height: calc(100vh - 90px);
     position: absolute;
     left: 0;
     top: 0;
@@ -121,13 +121,14 @@ header a{
 }
 
 header img{
-    height: 16px;
+    height: 25px;
+    margin-bottom: 0.3rem;
     color: #d2d2d2;
 }
 
-header .home{
-    height: 17px;
-    margin: 0.25rem 0 0.5rem 0;
+header .home img{
+    height: 30px;
+    margin: 0.4rem 0 1rem 0;
 }
 
 /* header ul.search{
@@ -152,14 +153,14 @@ header .account{
  /* MAIN */
 main{
     height: calc(100vh - 55px);
-    width: calc(100vw - 30px);
+    width: calc(100vw - 55px);
     background-color: #141922;
     position: absolute;
     right: 0;
     top: 0;
     /* margin per togliere distanze */
-    margin: 55px 0 55px 30px;
-    padding: 0 0.8rem 55px 0.8rem;
+    margin: 90px 0 90px 30px;
+    padding: 0 0.8rem 90px 0.8rem;
     overflow-y: scroll;
 }
 
@@ -172,9 +173,9 @@ main{
 #discover li{
     color: #4c5057;
     font-weight: 600;
-    line-height: 2rem;
-    margin: 0 0.25rem;
-    font-size: 0.5rem;
+    line-height: 2.5rem;
+    margin: 0 0.6rem;
+    font-size: 0.9rem;
     text-transform: uppercase;
     
 }
@@ -240,7 +241,7 @@ main{
 
  /* NAV CONTROLS */
 #controls{
-    height: 55px;
+    height: 90px;
     background-color: #282828;
     width: 100vw;
     position: fixed;
