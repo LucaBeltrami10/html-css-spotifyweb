@@ -83,37 +83,21 @@ body{
  SECTION 
  ************************/
  /* NAV UPGRADE */
- #upgrade {
-    height: 90px;
-    background-color: #080b12;
-    width: calc(100vw - 55px);
-    justify-content: end;
- }
-
- .button-upgrade{
-    border: 1px solid white;
-    background-color: rgba(0, 0, 0, 0);
-    color: white;
-    text-transform: uppercase;
-    padding: 0.8rem 2.5rem;
-    border-radius: 20px;
-    font-size: 0.7rem;
-    margin-right: 1rem;
-    font-weight: 600;
-}
-
+ 
  /* HEADER */
 header{
     width: 55px;
     background-color: #000000;
-    height: calc(100vh - 90px);
+    height: calc(100vh - 55px);
     color: gray;
-    align-items: center;
+    position: relative;
 }
 
-header a{
-    display: inline-block;
+header > *{
+    width: 100%;
+    text-align: center;
 }
+
 
 header img{
     height: 25px;
@@ -125,10 +109,6 @@ header .home img{
     height: 30px;
     margin: 0.4rem 0 1rem 0;
 }
-
-/* header ul.search{
-    color: #7b7e82;
-} */
 
 header .playlist{
     display: none;
@@ -150,9 +130,34 @@ main{
     height: calc(100vh - 55px);
     width: calc(100vw - 55px);
     background-color: #141922;
-    padding: 0 0.8rem 90px 0.8rem;
+    padding: 0 0.8rem 90px 0;
     overflow-y: scroll;
 }
+
+main > *{
+    margin-left: 1.3rem;
+}
+
+#upgrade {
+    height: 90px;
+    background-color: #080b12;
+    width: calc(100vw - 55px);
+    justify-content: end;
+    margin-left: 0;
+ }
+
+ .button-upgrade{
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    text-transform: uppercase;
+    padding: 0.8rem 2.5rem;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    margin-right: 1rem;
+    font-weight: 600;
+}
+
 
 #discover{
     flex-wrap: wrap;
@@ -204,6 +209,7 @@ main{
     margin: 1rem 0 1.1rem 0;
     font-size: 0.9rem;
 }
+
 
 #for-you h1,
 #popular h1{
