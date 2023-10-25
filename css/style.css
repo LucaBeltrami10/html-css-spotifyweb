@@ -87,12 +87,7 @@ body{
     height: 90px;
     background-color: #080b12;
     width: calc(100vw - 55px);
-    padding: 0;
     justify-content: end;
-    /*! position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 2; */
  }
 
  .button-upgrade{
@@ -101,13 +96,9 @@ body{
     color: white;
     text-transform: uppercase;
     padding: 0.8rem 2.5rem;
-    margin-right: 0.5rem;
     border-radius: 20px;
     font-size: 0.7rem;
-    /* position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translate(0, -50%); */
+    margin-right: 1rem;
     font-weight: 600;
 }
 
@@ -116,9 +107,6 @@ header{
     width: 55px;
     background-color: #000000;
     height: calc(100vh - 90px);
-    /*! position: absolute;
-    left: 0;
-    top: 0; */
     color: gray;
     align-items: center;
 }
@@ -162,10 +150,6 @@ main{
     height: calc(100vh - 55px);
     width: calc(100vw - 55px);
     background-color: #141922;
-    /*! position: absolute;
-    right: 0;
-    top: 0; */
-    /* margin per togliere distanze */
     padding: 0 0.8rem 90px 0.8rem;
     overflow-y: scroll;
 }
@@ -250,10 +234,6 @@ main{
     height: 90px;
     background-color: #282828;
     width: 100vw;
-    /*! position: fixed;
-    right: 0;
-    bottom: 0; */
-    /* z-index: 3; */
 }
 
 #controls i {
