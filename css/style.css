@@ -19,7 +19,7 @@ body{
 
 a{
     text-decoration: none;
-    color:#4c5057;
+    color:gray;
 }
 
  /***********************
@@ -110,17 +110,19 @@ header > *{
 header img{
     height: 25px;
     margin-bottom: 0.3rem;
-    color: #d2d2d2;
+    filter:brightness(0.8);
 }
 
 header .home img.small-logo{
     height: 30px;
     margin: 0.4rem 0 1rem 0;
+    filter: brightness(1);
 }
 
 header .home img.hidden-xs{
     height: 40px;
     margin: 1rem 0 1.5rem 0;
+    filter: brightness(1);
 }
 
 header .text {
@@ -134,8 +136,10 @@ header .home img.big-logo{
 }
 
 header .playlist h1{
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin: 2rem 0 0.5rem 0;
+    text-transform: uppercase;
+    color: white;
 }
 
 header .playlist a{
@@ -144,7 +148,7 @@ header .playlist a{
 
 header .playlist a i{
     font-size: 3rem;
-    color: #4c5057;
+    color: gray;
     font-weight: 600;
     margin-right: 0.5rem;
 }
@@ -218,6 +222,10 @@ main > *{
     
 }
 
+.recommended-container > div.container{
+    
+}
+
 .recommended-container h1{
     color: white;
 }
@@ -233,6 +241,7 @@ main > *{
     text-align: center;
     color: white;
     margin-bottom: 0.5rem;
+
 }
 
 .recommended-container .info-audio > img{
@@ -382,5 +391,13 @@ RESPONSIVENESS
     }
 
 
+
+}
+
+@media screen and (min-width:768px){
+
+    .recommended-container .info-audio{
+        width: calc(25% - 0.25rem);
+    }
 
 }
