@@ -17,6 +17,11 @@ body{
     list-style-type: none;
 }
 
+a{
+    text-decoration: none;
+    color:#4c5057;
+}
+
  /***********************
  UTILITIES
  ************************/
@@ -49,6 +54,10 @@ body{
 
 .flex-wrap{
     flex-wrap: wrap;
+}
+
+.hidden-xs{
+    display: none;
 }
 
 
@@ -98,29 +107,42 @@ header > *{
     text-align: center;
 }
 
-
 header img{
     height: 25px;
     margin-bottom: 0.3rem;
     color: #d2d2d2;
 }
 
-header .home img{
+header .home img.small-logo{
     height: 30px;
     margin: 0.4rem 0 1rem 0;
 }
 
-header .playlist{
-    display: none;
+header .home img.hidden-xs{
+    height: 40px;
+    margin: 1rem 0 1.5rem 0;
 }
 
-header .text{
-    display: none;
+header .text {
+    padding-left: 0.5rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+header .home img.big-logo{
+    height: 30px;
 }
 
 header .account{
     position: absolute;
     bottom: 0;
+}
+
+header .account .divider{
+    height: 1px;
+    width: 30px;
+    background-color: white;
+    margin: 0.5rem 0;
 }
 
 
@@ -135,13 +157,13 @@ main{
 }
 
 main > *{
-    margin-left: 1.3rem;
+    margin: 0 1.3rem;
 }
 
 #upgrade {
     height: 90px;
     background-color: #080b12;
-    width: calc(100vw - 55px);
+    width: 100%;
     justify-content: end;
     margin-left: 0;
  }
@@ -168,7 +190,7 @@ main > *{
 #discover li{
     color: #4c5057;
     font-weight: 600;
-    line-height: 2.5rem;
+    line-height: 3rem;
     margin: 0 0.6rem;
     font-size: 0.9rem;
     text-transform: uppercase;
@@ -198,16 +220,16 @@ main > *{
 
 .recommended-container .info-audio > h2{
     padding: 0.5rem 0 0.25rem 0;
-    font-size: 0.7rem;
+    font-size: 1rem;
 }
 
 .recommended-container .info-audio > h3{
-    font-size: 0.5rem;
+    font-size: 0.7rem;
 }
 
 #recently-played h1{
-    margin: 1rem 0 1.1rem 0;
-    font-size: 0.9rem;
+    margin: 1.5rem 0 1.5rem 0;
+    font-size: 1.5rem;
 }
 
 
@@ -308,4 +330,36 @@ main > *{
 
 #controls .set-audio .timing-bar i{
     padding: 0 0.5rem;
+}
+
+
+
+/******************************
+RESPONSIVENESS
+*******************************/
+
+@media screen and (min-width:576px){
+    header{
+        width: 230px;  
+    }
+
+    header > *{
+        text-align: start;
+        padding-left: 1.5rem;
+    }
+    
+    header img.small-logo{
+        display: none;
+    }
+
+    .hidden-xs{
+        display: block;
+    }
+
+    main{
+        width: calc(100% - 230px);
+    }
+
+
+
 }
