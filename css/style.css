@@ -300,6 +300,7 @@ main > *{
 #controls .listening{
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+    /* width: 20%; */
 }
 
 #controls .listening h1{
@@ -339,6 +340,12 @@ main > *{
 
 /*?  player */
 
+#controls .player{
+    /* width: 60%; */
+    justify-content: center;
+    align-items: center;
+}
+
 #controls .player-buttons{
     align-items: center;
     justify-content: center;
@@ -348,12 +355,39 @@ main > *{
 
 #controls .player-buttons i{
     padding: 0 0.5rem;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     
 }
 
+.player-slidecontainer {
+    width: 120px;
+    margin-right: 0.5rem;
+  }
+
+#controls .player-slidecontainer a{
+    padding: 0 0.5rem;
+    font-size: 0.5rem;
+    display: inline-block;
+    
+}
+
+.player-slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 120px;
+    height: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.8;
+    border-radius: 5px;
+  }
+
 
 /*?  set-audio */
+#controls .set-audio{
+    /* width: 20%; */
+}
+
 
 #controls .set-audio .timing-bar{
     align-items: center;
@@ -364,14 +398,15 @@ main > *{
     font-size: 0.7rem;
 }
 
-.slidecontainer {
-    width: 100px;
+.audio-slidecontainer {
+    width: 80px;
+    margin-right: 0.5rem;
   }
 
-  .slider {
+  .audio-slider {
     -webkit-appearance: none;
     appearance: none;
-    width: 90px;
+    width: 80px;
     height: 5px;
     background: #d3d3d3;
     outline: none;

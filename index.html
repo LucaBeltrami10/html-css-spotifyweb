@@ -150,7 +150,7 @@
                     </article>
             </section>      
         </main>
-        <footer id="controls" class="flex-j-spacebetween">
+        <footer id="controls" class="flex-row">
             <div class="listening flex-centered">
                 <img class="song-cover" src="./img/sinister.jpeg" alt="sinister photo">
                 <div class="song-name">
@@ -169,6 +169,11 @@
                     <i class="fa-regular fa-circle-play"></i>
                     <i class="fa-solid fa-forward-step"></i>
                     <i class="fa-solid fa-rotate-right"></i>
+                </div>
+                <div class="player-slidecontainer flex-row flex-ai-center">
+                    <a href="">0.25</a>
+                    <input  class="player-slider" type="range" min="1" max="100" value="50">
+                    <a href="">4.25</a>
                 </div>   
             </div>
             <div class="set-audio flex-j-spacebetween flex-ai-center">
@@ -176,8 +181,8 @@
                     <i class="fa-solid fa-bars"></i>
                     <i class="fa-solid fa-tv"></i>
                     <i class="fa-solid fa-volume-high"></i>
-                    <div class="slidecontainer">
-                        <input  class="slider" type="range" min="1" max="100" value="50">
+                    <div class="audio-slidecontainer">
+                        <input  class="audio-slider" type="range" min="1" max="100" value="50">
                     </div>
                 </div>
             </div>
