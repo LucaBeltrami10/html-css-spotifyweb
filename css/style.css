@@ -82,10 +82,10 @@ body{
     height: 90px;
     background-color: #080b12;
     width: calc(100vw - 55px);
-    position: absolute;
+    /*! position: absolute;
     right: 0;
     top: 0;
-    z-index: 2;
+    z-index: 2; */
  }
 
  .button-upgrade{
@@ -109,9 +109,9 @@ header{
     width: 55px;
     background-color: #000000;
     height: calc(100vh - 90px);
-    position: absolute;
+    /*! position: absolute;
     left: 0;
-    top: 0;
+    top: 0; */
     color: gray;
     align-items: center;
 }
@@ -155,9 +155,9 @@ main{
     height: calc(100vh - 55px);
     width: calc(100vw - 55px);
     background-color: #141922;
-    position: absolute;
+    /*! position: absolute;
     right: 0;
-    top: 0;
+    top: 0; */
     /* margin per togliere distanze */
     margin: 90px 0 90px 30px;
     padding: 0 0.8rem 90px 0.8rem;
@@ -244,10 +244,10 @@ main{
     height: 90px;
     background-color: #282828;
     width: 100vw;
-    position: fixed;
+    /*! position: fixed;
     right: 0;
-    bottom: 0;
-    z-index: 3;
+    bottom: 0; */
+    /* z-index: 3; */
 }
 
 #controls i {
