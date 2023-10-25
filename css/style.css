@@ -223,7 +223,7 @@ main > *{
 }
 
 .recommended-container > div.container{
-    
+    align-content: start;
 }
 
 .recommended-container h1{
@@ -397,7 +397,8 @@ RESPONSIVENESS
 @media screen and (min-width:768px){
 
     .recommended-container .info-audio{
-        width: calc(25% - 0.25rem);
+        width: calc(25% - 0.5rem);
+        margin-right: 0.5rem;
     }
 
 }
