@@ -315,8 +315,8 @@ main > *{
 }
 
 #controls .listening .song-cover{
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 }
 
 #controls .listening .song-name{
