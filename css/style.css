@@ -63,7 +63,7 @@ a{
 
 /* COLOR */
 .cl-gray{
-    color: #4c5057;
+    color: gray;
 }
 
 .cl-white{
@@ -307,11 +307,11 @@ main > *{
 }
 
 #controls .listening h1{
-    font-size: 0.5rem;
+    font-size: 0.8rem;
 }
 
 #controls .listening h2{
-    font-size: 0.4rem;
+    font-size: 0.6rem;
 }
 
 #controls .listening .song-cover{
