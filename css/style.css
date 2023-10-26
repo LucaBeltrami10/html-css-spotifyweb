@@ -119,6 +119,7 @@ header a{
     justify-content: center;
     border-left: 3px solid rgba(0, 0, 0, 0);
     padding-right: 3px;
+    align-items: center;
 }
 
 header a:hover {
