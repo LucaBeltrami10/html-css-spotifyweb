@@ -250,6 +250,10 @@ main > *{
     font-weight: 600;
 }
 
+.button-upgrade:hover{
+    transform: scale(1.02);
+}
+
 #discover{
     flex-wrap: wrap;
     justify-content: center;
