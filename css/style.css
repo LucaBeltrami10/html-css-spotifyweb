@@ -126,6 +126,14 @@ header a:hover {
     color: white;
 }
 
+header a:hover img{
+    filter:brightness(1);
+}
+
+header a:hover i{
+    color: white;
+}
+
 header .home img.small-logo{
     height: 28px;
     margin: 0.4rem 0 0.9rem 0;
