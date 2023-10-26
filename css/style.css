@@ -126,11 +126,11 @@ header a:hover {
     color: white;
 }
 
-header a:hover img{
+header a:hover .fa-square-plus{
     filter:brightness(1);
 }
 
-header a:hover i{
+header a:hover .fa-square-plus{
     color: white;
 }
 
