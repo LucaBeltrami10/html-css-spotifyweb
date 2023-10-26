@@ -260,11 +260,21 @@ main > *{
     color: #4c5057;
     font-weight: 600;
     line-height: 1rem;
-    margin: 1.5rem 0.6rem 1rem 0.6rem;
+    margin: 1.5rem 0.6rem 0.5rem 0.6rem;
     font-size: 0.9rem;
     text-transform: uppercase;
-    padding-bottom: 0.5rem;
-    
+    padding-bottom: 0.5rem; 
+}
+
+#discover li:hover div.selection-bar{
+    background-color: #adff2f;
+}
+
+#discover li div.selection-bar{
+    height: 2px; 
+    width: 30px;
+    margin: 5px auto 0 auto;
+    background-color: rgba(0, 0, 0, 0); 
 }
 
 .recommended-container > div.container{
