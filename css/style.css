@@ -354,15 +354,13 @@ main > *{
 }
 
 #controls .player-buttons i{
-    padding: 0 0.5rem;
-    font-size: 0.7rem;
-    
+    padding: 0 0.7rem 0.9rem 0.7rem;
+    font-size: 1rem;   
 }
 
-.player-slidecontainer {
-    width: 120px;
-    margin-right: 0.5rem;
-  }
+#controls .player-buttons i.fa-circle-play{
+    font-size: 1.3rem;
+}
 
 #controls .player-slidecontainer a{
     padding: 0 0.5rem;
