@@ -401,6 +401,11 @@ main > *{
     color: gray;
 }
 
+#controls .like:hover i,
+#controls .folder:hover i{
+    color: white;
+}
+
 /*?  player */
 
 #controls .player{
@@ -422,7 +427,7 @@ main > *{
 }
 
 #controls .player-buttons i.fa-circle-play{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 
 #controls .player-slidecontainer a{
