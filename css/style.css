@@ -117,7 +117,13 @@ header img{
 header a{
     display: flex;
     justify-content: center;
-    align-items: center;
+    border-left: 3px solid rgba(0, 0, 0, 0);
+    padding-right: 3px;
+}
+
+header a:hover {
+    border-left: 3px solid #adff2f;
+    color: white;
 }
 
 header .home img.small-logo{
@@ -147,6 +153,7 @@ header .playlist h1{
     margin: 2rem 0 0.5rem 0;
     text-transform: uppercase;
     color: white;
+    text-align: start;
 }
 
 header .playlist a{
@@ -450,10 +457,20 @@ RESPONSIVENESS
         width: 230px;  
     }
 
-    header > *{
-        text-align: start;
+    /*! header > section,
+    header > div > *{
+        
+        padding-left: 1.5rem;
+    } */
+
+    header .home, 
+    header .search a,
+    header .playlist h1,
+    header .playlist a, 
+    header .account a{
         padding-left: 1.5rem;
     }
+
     
     header img.small-logo{
         display: none;
@@ -461,6 +478,10 @@ RESPONSIVENESS
 
     header a{
         justify-content: start;
+    }
+
+    header a:hover {
+        border-left: 3px solid #adff2f;
     }
 
     header .account .download-app img{
