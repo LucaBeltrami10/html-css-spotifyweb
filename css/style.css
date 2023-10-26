@@ -441,7 +441,11 @@ main > *{
     outline: none;
     opacity: 0.8;
     border-radius: 5px;
-  }
+}
+
+.fa-circle-play:hover{
+    transform: scale(1.1);
+}
 
 
 /*?  set-audio */
