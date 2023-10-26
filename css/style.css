@@ -114,6 +114,12 @@ header img{
     filter:brightness(0.8);
 }
 
+header a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 header .home img.small-logo{
     height: 30px;
     margin: 0.4rem 0 1rem 0;
@@ -165,6 +171,23 @@ header .account .divider{
     width: 30px;
     background-color: white;
     margin: 0.5rem 0;
+    display: none;
+}
+
+header .account .download-app img{
+    height: 15px;
+}
+
+header .account .user-container{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: gray;
+    overflow: hidden;
+}
+
+header .account .divider .user-container img{
+height: 10px;
 }
 
 
