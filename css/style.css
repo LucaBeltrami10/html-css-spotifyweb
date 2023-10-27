@@ -91,7 +91,6 @@ a{
 /***********************
  SECTION 
  ************************/
- /* NAV UPGRADE */
  
  /* HEADER */
 header{
@@ -211,7 +210,7 @@ header .account .user-container{
 }
 
 header .account .divider .user-container img{
-height: 10px;
+    height: 10px;
 }
 
 
@@ -356,7 +355,6 @@ main > *{
     font-size: 1.5rem;
 }
 
-
 #for-you h1,
 #popular h1{
     color: white;
@@ -378,7 +376,6 @@ main > *{
     object-position: center;
     overflow: hidden;
 }
-
 
 
  /* NAV CONTROLS */
@@ -459,8 +456,7 @@ main > *{
     align-items: center;
     justify-content: center;
     align-content: center;
-    margin-bottom: 0.3rem;
-    
+    margin-bottom: 0.3rem;  
 }
 
 #controls .player-buttons i{
@@ -473,6 +469,12 @@ main > *{
     margin: 0 0.4rem;
 }
 
+.fa-circle-play:hover{
+    transform: scale(1.1);
+}
+
+/*! DA SISTEMARE */
+
 #controls .player-slidecontainer{
     margin-bottom: 0.3rem;
 }
@@ -482,8 +484,7 @@ main > *{
     font-size: 0.6rem;
     display: inline-block;
     font-weight: 600;
-    color: white;
-    
+    color: white;   
 }
 
 .player-slider {
@@ -496,11 +497,6 @@ main > *{
     opacity: 0.8;
     border-radius: 5px;
 }
-
-.fa-circle-play:hover{
-    transform: scale(1.1);
-}
-
 
 /*?  set-audio */
 #controls .set-audio .timing-bar{
@@ -516,7 +512,7 @@ main > *{
     width: 80px;
     margin-right: 0.5rem;
     position: relative;
-  }
+}
 
 .audio-slidecontainer .audio-slider {
     appearance: none;
@@ -546,12 +542,6 @@ RESPONSIVENESS
         width: 230px;  
     }
 
-    /*! header > section,
-    header > div > *{
-        
-        padding-left: 1.5rem;
-    } */
-
     header .home, 
     header .search a,
     header .playlist h1,
@@ -560,7 +550,6 @@ RESPONSIVENESS
         padding-left: 1.5rem;
     }
 
-    
     header img.small-logo{
         display: none;
     }
@@ -598,8 +587,6 @@ RESPONSIVENESS
         flex-direction: row;
     }
 
-
-
     main{
         width: calc(100% - 230px);
     }
@@ -608,6 +595,10 @@ RESPONSIVENESS
         width: 160px;  
     }
 }
+
+
+
+
 
 @media screen and (min-width:768px){
 
@@ -621,6 +612,9 @@ RESPONSIVENESS
     }
 
 }
+
+
+
 
 
 @media screen and (min-width:992px){
