@@ -305,6 +305,7 @@ main > *{
     width: 100%;
     aspect-ratio: 1/1;
     position: relative;
+    overflow: hidden;
 }
 
 .recommended-container .cover-img-container img{
@@ -319,6 +320,10 @@ main > *{
     position: absolute;
     top: 0;
     left: 0;
+}
+
+.recommended-container .cover-img-container .shadow.shadow-round{
+    border-radius: 50%;
 }
 
 .recommended-container .cover-img-container:hover .shadow{
