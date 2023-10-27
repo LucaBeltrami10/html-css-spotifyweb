@@ -401,8 +401,14 @@ main > *{
     font-size: 0.8rem;
 }
 
-#controls .listening h2{
-    font-size: 0.6rem;
+#controls .listening a{
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+#controls .listening a:hover{
+    color: white;
+    text-decoration: underline;
 }
 
 #controls .listening .like-container i{
