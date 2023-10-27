@@ -449,16 +449,22 @@ main > *{
     align-items: center;
     justify-content: center;
     align-content: center;
+    margin-bottom: 0.3rem;
     
 }
 
 #controls .player-buttons i{
     padding: 0 0.7rem 0.9rem 0.7rem;
-    font-size: 1rem;   
+    font-size: 1.2rem;   
 }
 
 #controls .player-buttons i.fa-circle-play{
-    font-size: 1.5rem;
+    font-size: 1.9rem;
+    margin: 0 0.4rem;
+}
+
+#controls .player-slidecontainer{
+    margin-bottom: 0.3rem;
 }
 
 #controls .player-slidecontainer a{
