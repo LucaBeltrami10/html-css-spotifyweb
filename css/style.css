@@ -587,8 +587,9 @@ RESPONSIVENESS
         width: calc(100% - 230px);
     }
 
-
-
+    .player-slider {
+        width: 160px;  
+    }
 }
 
 @media screen and (min-width:768px){
@@ -596,6 +597,10 @@ RESPONSIVENESS
     .recommended-container .info-audio{
         width: calc(25% - 0.5rem);
         margin-right: 0.5rem;
+    }
+
+    .player-slider {
+        width: 270px;  
     }
 
 }
