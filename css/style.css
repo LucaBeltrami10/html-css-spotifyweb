@@ -100,7 +100,6 @@ header{
     height: calc(100vh - 90px);
     color: gray;
     justify-content: space-between;
-    overflow-y: scroll;
 }
 
 header > *{
@@ -227,7 +226,7 @@ main{
 }
 
 main > *{
-    margin: 0 1.3rem;
+    margin: 0 0 0 1.3rem;
 }
 
 #upgrade {
@@ -466,26 +465,24 @@ main > *{
 .audio-slidecontainer {
     width: 80px;
     margin-right: 0.5rem;
+    position: relative;
   }
 
-.audio-slider {
-    -webkit-appearance: none;
-    /* appearance: none; */
+.audio-slidecontainer .audio-slider {
+    appearance: none;
     width: 80px;
     height: 5px;
     background: #d3d3d3;
-    outline: none;
-    opacity: 0.8;
-    background-color: greenyellow;
-    border-radius: 5px;  
+    border-radius: 5px;
 }
 
-.audio-slider::-webkit-slider-thumb{
+.audio-slidecontainer .audio-slider::-webkit-slider-thumb{
     -webkit-apperance: none;
-    width: 5px;
-    height: 5px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     background-color: pink;
+    position: relative;
 }
 
 
