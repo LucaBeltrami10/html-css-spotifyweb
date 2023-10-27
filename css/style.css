@@ -269,6 +269,10 @@ main > *{
     padding-bottom: 0.5rem; 
 }
 
+#discover li:hover a{
+    color: white;
+}
+
 #discover li:hover div.selection-bar{
     background-color: #adff2f;
 }
