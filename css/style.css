@@ -468,16 +468,25 @@ main > *{
     margin-right: 0.5rem;
   }
 
-  .audio-slider {
+.audio-slider {
     -webkit-appearance: none;
-    appearance: none;
+    /* appearance: none; */
     width: 80px;
     height: 5px;
     background: #d3d3d3;
     outline: none;
     opacity: 0.8;
-    border-radius: 5px;
-  }
+    background-color: greenyellow;
+    border-radius: 5px;  
+}
+
+.audio-slider::-webkit-slider-thumb{
+    -webkit-apperance: none;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: pink;
+}
 
 
 
