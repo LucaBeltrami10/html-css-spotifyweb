@@ -299,7 +299,34 @@ main > *{
     margin: 0 0.5rem 0.5rem 0;
     text-align: center;
     color: white;
+}
 
+.recommended-container .cover-img-container{
+    width: 100%;
+    aspect-ratio: 1/1;
+    position: relative;
+}
+
+.recommended-container .cover-img-container img{
+    width: 100%;
+}
+
+.recommended-container .cover-img-container .shadow{
+    background-color: rgba(1, 1, 1, 0.5);
+    width: 100%;
+    aspect-ratio: 1/1;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.recommended-container .cover-img-container:hover .shadow{
+    display: flex;
+}
+
+.recommended-container .cover-img-container .shadow i{
+    font-size: 2.5rem;
 }
 
 .recommended-container .info-audio > img{
