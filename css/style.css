@@ -600,4 +600,8 @@ RESPONSIVENESS
         width: calc(100% / 6 - 0.5rem);
     }
 
+    .player-slider {
+        width: 450px;  
+    }
+
 }
