@@ -133,6 +133,8 @@ header a:hover .fa-square-plus{
     color: white;
 }
 
+/*? .Home */
+
 header .home img.small-logo{
     height: 28px;
     margin: 0.4rem 0 0.9rem 0;
@@ -155,6 +157,7 @@ header .home img.big-logo{
     height: 30px;
 }
 
+/*? .Playlist */
 header .playlist h1{
     font-size: 0.9rem;
     margin: 2rem 0 0.5rem 0;
@@ -180,6 +183,7 @@ header .playlist li{
     padding: 0.5rem 0;
 }
 
+/*? .Account */
 header .account .divider{
     height: 1px;
     width: calc(100% - 26px);
@@ -226,61 +230,6 @@ main{
 
 main > *{
     margin: 0 0 0 1.3rem;
-}
-
-#upgrade {
-    height: 90px;
-    background-color: #080b12;
-    width: 100%;
-    justify-content: end;
-    margin-left: 0;
- }
-
- .button-upgrade{
-    border: 1px solid white;
-    background-color: rgba(0, 0, 0, 0);
-    color: white;
-    text-transform: uppercase;
-    padding: 0.8rem 2.5rem;
-    border-radius: 20px;
-    font-size: 0.7rem;
-    margin-right: 1rem;
-    font-weight: 600;
-}
-
-.button-upgrade:hover{
-    transform: scale(1.02);
-}
-
-#discover{
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
-
-#discover li{
-    color: #4c5057;
-    font-weight: 600;
-    line-height: 1rem;
-    margin: 1.5rem 0.6rem 0.5rem 0.6rem;
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    padding-bottom: 0.5rem; 
-}
-
-#discover li:hover a{
-    color: white;
-}
-
-#discover li:hover div.selection-bar{
-    background-color: #adff2f;
-}
-
-#discover li div.selection-bar{
-    height: 2px; 
-    width: 30px;
-    margin: 5px auto 0 auto;
-    background-color: rgba(0, 0, 0, 0); 
 }
 
 .recommended-container > div.container{
@@ -350,11 +299,70 @@ main > *{
     font-size: 0.7rem;
 }
 
+/*? #Upgrade */
+#upgrade {
+    height: 90px;
+    background-color: #080b12;
+    width: 100%;
+    justify-content: end;
+    margin-left: 0;
+ }
+
+ .button-upgrade{
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    text-transform: uppercase;
+    padding: 0.8rem 2.5rem;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    margin-right: 1rem;
+    font-weight: 600;
+}
+
+.button-upgrade:hover{
+    transform: scale(1.02);
+}
+
+/*? #Discover */
+#discover{
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#discover li{
+    color: #4c5057;
+    font-weight: 600;
+    line-height: 1rem;
+    margin: 1.5rem 0.6rem 0.5rem 0.6rem;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem; 
+}
+
+#discover li:hover a{
+    color: white;
+}
+
+#discover li:hover div.selection-bar{
+    background-color: #adff2f;
+}
+
+#discover li div.selection-bar{
+    height: 2px; 
+    width: 30px;
+    margin: 5px auto 0 auto;
+    background-color: rgba(0, 0, 0, 0); 
+}
+
+/*? #Recently-played */
 #recently-played h1{
     margin: 1.5rem 0 1.5rem 0;
     font-size: 1.5rem;
 }
 
+/*? #For-you */   /*? #Popular */
 #for-you h1,
 #popular h1{
     color: white;
@@ -378,7 +386,7 @@ main > *{
 }
 
 
- /* NAV CONTROLS */
+ /* FOOTER CONTROLS */
 #controls{
     height: 90px;
     background-color: #282828;
@@ -445,7 +453,6 @@ main > *{
 }
 
 /*?  player */
-
 #controls .player{
     /* width: 60%; */
     justify-content: center;
