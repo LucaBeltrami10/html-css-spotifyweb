@@ -469,8 +469,10 @@ main > *{
 
 #controls .player-slidecontainer a{
     padding: 0 0.5rem;
-    font-size: 0.5rem;
+    font-size: 0.6rem;
     display: inline-block;
+    font-weight: 600;
+    color: white;
     
 }
 
