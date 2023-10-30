@@ -345,7 +345,7 @@ main > *{
     color: white;
 }
 
-#discover li:hover div.selection-bar{
+#discover li:active div.selection-bar{
     background-color: #adff2f;
 }
 
